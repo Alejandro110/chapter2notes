@@ -33,3 +33,10 @@ while (start<=100){
     }
     start++;
 }
+let answer= readline .question("enter y or n:");
+while(answer !="y" &&  answer !="n" && answer!="YES"){
+    console.log("invalid choice");
+    answer=readline.question(" try again. enter y or n:");
+}
+console.log('you typed ${answer}');
+
